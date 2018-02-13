@@ -153,33 +153,9 @@ CMakeFiles/openANN.dir/src/Layer.cpp.o.provides: CMakeFiles/openANN.dir/src/Laye
 CMakeFiles/openANN.dir/src/Layer.cpp.o.provides.build: CMakeFiles/openANN.dir/src/Layer.cpp.o
 
 
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: CMakeFiles/openANN.dir/flags.make
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: src/neural_network/NeuralNetwork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp
-
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp > CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i
-
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp -o CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s
-
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires:
-
-.PHONY : CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
-
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
-	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides.build
-.PHONY : CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides
-
-CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o
-
-
 CMakeFiles/openANN.dir/src/utils/Math.cpp.o: CMakeFiles/openANN.dir/flags.make
 CMakeFiles/openANN.dir/src/utils/Math.cpp.o: src/utils/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/openANN.dir/src/utils/Math.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/openANN.dir/src/utils/Math.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/utils/Math.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/utils/Math.cpp
 
 CMakeFiles/openANN.dir/src/utils/Math.cpp.i: cmake_force
@@ -201,14 +177,138 @@ CMakeFiles/openANN.dir/src/utils/Math.cpp.o.provides: CMakeFiles/openANN.dir/src
 CMakeFiles/openANN.dir/src/utils/Math.cpp.o.provides.build: CMakeFiles/openANN.dir/src/utils/Math.cpp.o
 
 
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: CMakeFiles/openANN.dir/flags.make
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: src/neural_network/NeuralNetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp > CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.i
+
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp -o CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s
+
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires:
+
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
+
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides.build
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides
+
+CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o
+
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: CMakeFiles/openANN.dir/flags.make
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: src/neural_network/setErrors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/setErrors.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/setErrors.cpp > CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.i
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/setErrors.cpp -o CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.s
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.requires:
+
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.requires
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.requires
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.provides.build
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.provides
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o
+
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: CMakeFiles/openANN.dir/flags.make
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: src/neural_network/feedForward.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/feedForward.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/feedForward.cpp > CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.i
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/feedForward.cpp -o CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.s
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.requires:
+
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.requires
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.requires
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.provides.build
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.provides
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o
+
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: CMakeFiles/openANN.dir/flags.make
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: src/neural_network/backPropagation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/backPropagation.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/backPropagation.cpp > CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.i
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/backPropagation.cpp -o CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.s
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.requires:
+
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.requires
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.provides.build
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.provides
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o
+
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: CMakeFiles/openANN.dir/flags.make
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: src/neural_network/train.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/openANN.dir/src/neural_network/train.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/openANN.dir/src/neural_network/train.cpp.o -c /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/train.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openANN.dir/src/neural_network/train.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/train.cpp > CMakeFiles/openANN.dir/src/neural_network/train.cpp.i
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openANN.dir/src/neural_network/train.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/train.cpp -o CMakeFiles/openANN.dir/src/neural_network/train.cpp.s
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.requires:
+
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.requires
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.provides: CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.requires
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.provides.build
+.PHONY : CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.provides
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.provides.build: CMakeFiles/openANN.dir/src/neural_network/train.cpp.o
+
+
 # Object files for target openANN
 openANN_OBJECTS = \
 "CMakeFiles/openANN.dir/src/main.cpp.o" \
 "CMakeFiles/openANN.dir/src/Neuron.cpp.o" \
 "CMakeFiles/openANN.dir/src/Matrix.cpp.o" \
 "CMakeFiles/openANN.dir/src/Layer.cpp.o" \
+"CMakeFiles/openANN.dir/src/utils/Math.cpp.o" \
 "CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o" \
-"CMakeFiles/openANN.dir/src/utils/Math.cpp.o"
+"CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o" \
+"CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o" \
+"CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o" \
+"CMakeFiles/openANN.dir/src/neural_network/train.cpp.o"
 
 # External object files for target openANN
 openANN_EXTERNAL_OBJECTS =
@@ -217,11 +317,15 @@ openANN: CMakeFiles/openANN.dir/src/main.cpp.o
 openANN: CMakeFiles/openANN.dir/src/Neuron.cpp.o
 openANN: CMakeFiles/openANN.dir/src/Matrix.cpp.o
 openANN: CMakeFiles/openANN.dir/src/Layer.cpp.o
-openANN: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o
 openANN: CMakeFiles/openANN.dir/src/utils/Math.cpp.o
+openANN: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o
+openANN: CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o
+openANN: CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o
+openANN: CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o
+openANN: CMakeFiles/openANN.dir/src/neural_network/train.cpp.o
 openANN: CMakeFiles/openANN.dir/build.make
 openANN: CMakeFiles/openANN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable openANN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gingerpic/Documents/Crapland/openANN/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable openANN"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openANN.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,8 +337,12 @@ CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/main.cpp.o.requires
 CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/Neuron.cpp.o.requires
 CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/Matrix.cpp.o.requires
 CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/Layer.cpp.o.requires
-CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
 CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/utils/Math.cpp.o.requires
+CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o.requires
+CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o.requires
+CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o.requires
+CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o.requires
+CMakeFiles/openANN.dir/requires: CMakeFiles/openANN.dir/src/neural_network/train.cpp.o.requires
 
 .PHONY : CMakeFiles/openANN.dir/requires
 

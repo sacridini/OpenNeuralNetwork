@@ -97,8 +97,32 @@ ctime
 /Users/gingerpic/Documents/Crapland/openANN/include/Matrix.hpp
 ../include/utils/Math.hpp
 /Users/gingerpic/Documents/Crapland/openANN/include/utils/Math.hpp
+../include/NeuralNetwork.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
 
 /Users/gingerpic/Documents/Crapland/openANN/src/neural_network/NeuralNetwork.cpp
+../../include/NeuralNetwork.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
+
+/Users/gingerpic/Documents/Crapland/openANN/src/neural_network/backPropagation.cpp
+../../include/NeuralNetwork.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
+../../include/utils/Math.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/utils/Math.hpp
+
+/Users/gingerpic/Documents/Crapland/openANN/src/neural_network/feedForward.cpp
+../../include/NeuralNetwork.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
+../../include/utils/Math.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/utils/Math.hpp
+
+/Users/gingerpic/Documents/Crapland/openANN/src/neural_network/setErrors.cpp
+cassert
+-
+../../include/NeuralNetwork.hpp
+/Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
+
+/Users/gingerpic/Documents/Crapland/openANN/src/neural_network/train.cpp
 ../../include/NeuralNetwork.hpp
 /Users/gingerpic/Documents/Crapland/openANN/include/NeuralNetwork.hpp
 

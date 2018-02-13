@@ -258,6 +258,114 @@ src/neural_network/NeuralNetwork.cpp.s:
 	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.s
 .PHONY : src/neural_network/NeuralNetwork.cpp.s
 
+src/neural_network/backPropagation.o: src/neural_network/backPropagation.cpp.o
+
+.PHONY : src/neural_network/backPropagation.o
+
+# target to build an object file
+src/neural_network/backPropagation.cpp.o:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o
+.PHONY : src/neural_network/backPropagation.cpp.o
+
+src/neural_network/backPropagation.i: src/neural_network/backPropagation.cpp.i
+
+.PHONY : src/neural_network/backPropagation.i
+
+# target to preprocess a source file
+src/neural_network/backPropagation.cpp.i:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.i
+.PHONY : src/neural_network/backPropagation.cpp.i
+
+src/neural_network/backPropagation.s: src/neural_network/backPropagation.cpp.s
+
+.PHONY : src/neural_network/backPropagation.s
+
+# target to generate assembly for a file
+src/neural_network/backPropagation.cpp.s:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.s
+.PHONY : src/neural_network/backPropagation.cpp.s
+
+src/neural_network/feedForward.o: src/neural_network/feedForward.cpp.o
+
+.PHONY : src/neural_network/feedForward.o
+
+# target to build an object file
+src/neural_network/feedForward.cpp.o:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o
+.PHONY : src/neural_network/feedForward.cpp.o
+
+src/neural_network/feedForward.i: src/neural_network/feedForward.cpp.i
+
+.PHONY : src/neural_network/feedForward.i
+
+# target to preprocess a source file
+src/neural_network/feedForward.cpp.i:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.i
+.PHONY : src/neural_network/feedForward.cpp.i
+
+src/neural_network/feedForward.s: src/neural_network/feedForward.cpp.s
+
+.PHONY : src/neural_network/feedForward.s
+
+# target to generate assembly for a file
+src/neural_network/feedForward.cpp.s:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.s
+.PHONY : src/neural_network/feedForward.cpp.s
+
+src/neural_network/setErrors.o: src/neural_network/setErrors.cpp.o
+
+.PHONY : src/neural_network/setErrors.o
+
+# target to build an object file
+src/neural_network/setErrors.cpp.o:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o
+.PHONY : src/neural_network/setErrors.cpp.o
+
+src/neural_network/setErrors.i: src/neural_network/setErrors.cpp.i
+
+.PHONY : src/neural_network/setErrors.i
+
+# target to preprocess a source file
+src/neural_network/setErrors.cpp.i:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.i
+.PHONY : src/neural_network/setErrors.cpp.i
+
+src/neural_network/setErrors.s: src/neural_network/setErrors.cpp.s
+
+.PHONY : src/neural_network/setErrors.s
+
+# target to generate assembly for a file
+src/neural_network/setErrors.cpp.s:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.s
+.PHONY : src/neural_network/setErrors.cpp.s
+
+src/neural_network/train.o: src/neural_network/train.cpp.o
+
+.PHONY : src/neural_network/train.o
+
+# target to build an object file
+src/neural_network/train.cpp.o:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/train.cpp.o
+.PHONY : src/neural_network/train.cpp.o
+
+src/neural_network/train.i: src/neural_network/train.cpp.i
+
+.PHONY : src/neural_network/train.i
+
+# target to preprocess a source file
+src/neural_network/train.cpp.i:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/train.cpp.i
+.PHONY : src/neural_network/train.cpp.i
+
+src/neural_network/train.s: src/neural_network/train.cpp.s
+
+.PHONY : src/neural_network/train.s
+
+# target to generate assembly for a file
+src/neural_network/train.cpp.s:
+	$(MAKE) -f CMakeFiles/openANN.dir/build.make CMakeFiles/openANN.dir/src/neural_network/train.cpp.s
+.PHONY : src/neural_network/train.cpp.s
+
 src/utils/Math.o: src/utils/Math.cpp.o
 
 .PHONY : src/utils/Math.o
@@ -309,6 +417,18 @@ help:
 	@echo "... src/neural_network/NeuralNetwork.o"
 	@echo "... src/neural_network/NeuralNetwork.i"
 	@echo "... src/neural_network/NeuralNetwork.s"
+	@echo "... src/neural_network/backPropagation.o"
+	@echo "... src/neural_network/backPropagation.i"
+	@echo "... src/neural_network/backPropagation.s"
+	@echo "... src/neural_network/feedForward.o"
+	@echo "... src/neural_network/feedForward.i"
+	@echo "... src/neural_network/feedForward.s"
+	@echo "... src/neural_network/setErrors.o"
+	@echo "... src/neural_network/setErrors.i"
+	@echo "... src/neural_network/setErrors.s"
+	@echo "... src/neural_network/train.o"
+	@echo "... src/neural_network/train.i"
+	@echo "... src/neural_network/train.s"
 	@echo "... src/utils/Math.o"
 	@echo "... src/utils/Math.i"
 	@echo "... src/utils/Math.s"

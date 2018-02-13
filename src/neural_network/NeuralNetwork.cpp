@@ -12,17 +12,15 @@ NeuralNetwork::NeuralNetwork(
     this->momentum      = momentum;
     this->bias          = bias;
 
-    for (int i = 0; i < topologySize; i++) {
-        if (i > 0 && i < (topologySize - 1)) { 
-            Layer *l = new Layer(topology.at(i), this->hiddenActivationType);
-            this->layers.push_back(l);
-        } else if (i == (topologySize - 1)) {
-            Layer *l = new Layer(topology.at(i), this->outputActivationType);
-        } else {
-            Layer *l = new Layer(topology.at(i));
-            this->layers.push_back(l);
-        }
+  for (int i = 0; i < topologySize; i++) {
+    if (i > 0 && i < (topologySize - 1)) {
+      this->layers.push_back(new Layer(topology.at(i), this->hiddenActivationType));
+    } else if (i == (topologySize - 1)) {
+      this->layers.push_back(new Layer(topology.at(i), this->outputActivationType));
+    } else {
+      this->layers.push_back(new Layer(topology.at(i)));
     }
+  }
 
     for (int i = 0; i < (topologySize - 1); i++) {
         Matrix *weightMatrix = new Matrix(topology.at(i), topology.at(i + 1), true);
@@ -31,6 +29,7 @@ NeuralNetwork::NeuralNetwork(
 
     for (int i = 0; i < topology.at(topologySize - 1); i++) {
         errors.push_back(0.00);
+        derivedErrors.push_back(0.00);        
     }
 
     this->error = 0.00;
@@ -54,17 +53,18 @@ NeuralNetwork::NeuralNetwork(
     this->outputActivationType      = outputActivationType;
     this->costFunctionType          = costFunctionType;
 
-    for (int i = 0; i < topologySize; i++) {
-        if (i > 0 && i < (topologySize - 1)) { 
-            Layer *l = new Layer(topology.at(i), this->hiddenActivationType);
-            this->layers.push_back(l);
-        } else if (i == (topologySize - 1)) {
-            Layer *l = new Layer(topology.at(i), this->outputActivationType);
-        } else {
-            Layer *l = new Layer(topology.at(i));
-            this->layers.push_back(l);
-        }
+  for (int i = 0; i < topologySize; i++) {
+    if (i > 0 && i < (topologySize - 1)) {
+      Layer *l  = new Layer(topology.at(i), this->hiddenActivationType);
+      this->layers.push_back(l);
+    } else if (i == (topologySize - 1)) {
+      Layer *l  = new Layer(topology.at(i), this->outputActivationType);
+      this->layers.push_back(l);
+    } else {
+      Layer *l  = new Layer(topology.at(i));
+      this->layers.push_back(l);
     }
+  }
 
     for (int i = 0; i < (topologySize - 1); i++) {
         Matrix *weightMatrix = new Matrix(topology.at(i), topology.at(i + 1), true);
@@ -73,6 +73,7 @@ NeuralNetwork::NeuralNetwork(
 
     for (int i = 0; i < topology.at(topologySize - 1); i++) {
         errors.push_back(0.00);
+        derivedErrors.push_back(0.00);
     }
 
     this->error = 0.00;

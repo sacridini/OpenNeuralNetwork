@@ -12,7 +12,10 @@ CMakeFiles/openANN.dir/src/Matrix.cpp.o: src/Matrix.cpp
 CMakeFiles/openANN.dir/src/Neuron.cpp.o: include/Neuron.hpp
 CMakeFiles/openANN.dir/src/Neuron.cpp.o: src/Neuron.cpp
 
+CMakeFiles/openANN.dir/src/main.cpp.o: include/Layer.hpp
 CMakeFiles/openANN.dir/src/main.cpp.o: include/Matrix.hpp
+CMakeFiles/openANN.dir/src/main.cpp.o: include/NeuralNetwork.hpp
+CMakeFiles/openANN.dir/src/main.cpp.o: include/Neuron.hpp
 CMakeFiles/openANN.dir/src/main.cpp.o: include/utils/Math.hpp
 CMakeFiles/openANN.dir/src/main.cpp.o: src/main.cpp
 
@@ -21,6 +24,32 @@ CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: include/Matrix.hp
 CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: include/NeuralNetwork.hpp
 CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: include/Neuron.hpp
 CMakeFiles/openANN.dir/src/neural_network/NeuralNetwork.cpp.o: src/neural_network/NeuralNetwork.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: include/Layer.hpp
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: include/Matrix.hpp
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: include/NeuralNetwork.hpp
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: include/Neuron.hpp
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: include/utils/Math.hpp
+CMakeFiles/openANN.dir/src/neural_network/backPropagation.cpp.o: src/neural_network/backPropagation.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: include/Layer.hpp
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: include/Matrix.hpp
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: include/NeuralNetwork.hpp
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: include/Neuron.hpp
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: include/utils/Math.hpp
+CMakeFiles/openANN.dir/src/neural_network/feedForward.cpp.o: src/neural_network/feedForward.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: include/Layer.hpp
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: include/Matrix.hpp
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: include/NeuralNetwork.hpp
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: include/Neuron.hpp
+CMakeFiles/openANN.dir/src/neural_network/setErrors.cpp.o: src/neural_network/setErrors.cpp
+
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: include/Layer.hpp
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: include/Matrix.hpp
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: include/NeuralNetwork.hpp
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: include/Neuron.hpp
+CMakeFiles/openANN.dir/src/neural_network/train.cpp.o: src/neural_network/train.cpp
 
 CMakeFiles/openANN.dir/src/utils/Math.cpp.o: include/Matrix.hpp
 CMakeFiles/openANN.dir/src/utils/Math.cpp.o: include/utils/Math.hpp

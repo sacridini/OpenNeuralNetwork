@@ -51,6 +51,13 @@ public:
     void feedForward();
     void backPropagation();
     void setErrors();
+    void train(
+        vector<double> input,
+        vector<double> target, 
+        double bias, 
+        double learningRate, 
+        double momentum
+    );
 
     int topologySize;
     int hiddenActivationType    = RELU;
