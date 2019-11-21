@@ -139,6 +139,7 @@ void NeuralNetwork::backPropagation() {
 
     newWeights.push_back(new Matrix(*tempNewWeights));
 
+    delete gradients;
     delete pGradients;
     delete transposedPWeights;
     delete hiddenDerived;
