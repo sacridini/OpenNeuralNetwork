@@ -16,7 +16,7 @@ void NeuralNetwork::feedForward() {
         );
 
         if (i != 0) {
-            a = this->getDerivedNeuronMatrix(i);
+            a = this->getActivatedNeuronMatrix(i);
         }
 
         utils::Math::multiplyMatrix(a, b, c);
